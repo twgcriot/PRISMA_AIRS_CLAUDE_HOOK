@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/hooks/prisma-airs-prompt-scan.sh",
+            "statusMessage": "Scanning prompt with Prisma AIRS...",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}
